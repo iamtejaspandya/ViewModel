@@ -1,0 +1,9 @@
+<?php
+/** @var $viewModel \Tejas\ViewModelEx\ViewModel\MyNewViewModel */
+$viewModel = $block->getViewModel();
+$additionalDetails = $viewModel->getAdditionalDetails();
+?>
+
+<div class="data item content">
+    <h2 class="product-section-title"><?= $additionalDetails; ?></h2>
+</div>
